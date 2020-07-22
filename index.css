@@ -1,0 +1,79 @@
+body{
+    background-image: url("Livraria.jpg");
+}
+
+main{
+    position: relative;
+    top:25%;
+    left:25%;
+
+    background-color: rgba(245, 245, 245, 0.685);
+
+    border-radius: 50px;
+
+    width: 50%;
+    height: 30%;
+}
+
+#gui-buttons{
+    position: relative;
+
+    top: 20%;
+}
+
+#editar-modal{
+    background-color: rgb(254,254,254);
+
+    z-index: 2;
+}
+
+.form-off{
+    width:0;
+    display: none;
+}
+
+.form-on{
+    position: absolute;
+    
+    top:0%;
+    left:30%;
+
+    display: block;
+
+    
+
+    width: 40%;
+
+    border-radius: 20px;
+
+    overflow-x: hidden;
+    transition: 0.5;
+
+    z-index: 1;
+    background-color: rgba(245, 245, 245, 0.685);
+}
+
+.form-on form{
+    padding: 2%;
+}
+
+.form-on .btn-close{
+    position: relative;
+
+    top: 0;
+    left: 95%;
+
+    border-radius: 0px 50% 0px 50%;
+}
+
+#livros-achados{
+    height: 300px;
+
+    overflow-x: hidden;
+
+    margin-top: 4%;
+
+    background-color: white;
+
+    padding: 2%;
+}
